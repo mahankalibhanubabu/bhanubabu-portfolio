@@ -3,30 +3,64 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Award, ExternalLink, Download } from 'lucide-react';
+import { title } from 'process';
 
 const Certificates = () => {
   const certificates = [
     {
-      title: 'MERN Stack Development',
-      issuer: 'Various Organizations',
-      description: 'Comprehensive certification in MongoDB, Express.js, React, and Node.js development',
-      image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=300&fit=crop'
+      title: 'Salesforce Developer',
+      issuer: 'Salesforce',
+      description: '"Proud to be a Salesforce Certified Developer! This certification confirms my skills in Apex, Lightning, and crafting robust solutions to maximize business impact on Salesforce."',
+      image: 'https://th.bing.com/th/id/OIP.u7703LMdFomHOG4jIVQwoAAAAA?rs=1&pid=ImgDetMain'
     },
     {
-      title: 'Cloud Technologies',
-      issuer: 'Multiple Providers',
-      description: 'Certifications in cloud platforms and modern deployment strategies',
-      image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=300&fit=crop'
+      title: 'Azure Fundamentals',
+      issuer: 'Microscoft Azure',
+      description: 'Proud to be Azure Certified! This credential confirms my skills in designing and managing robust, scalable solutions on the Microsoft Azure cloud platform.',
+      image: 'https://th.bing.com/th/id/OIP.5Zgd7tKg7y5c9_drW_1x4wHaEK?rs=1&pid=ImgDetMain'
     },
     {
-      title: 'Database Management',
-      issuer: 'Professional Training',
-      description: 'Advanced database design and management certifications',
-      image: 'https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=400&h=300&fit=crop'
-    }
+      title: 'Accenture Developer Job Simulation',
+      issuer: 'accenture',
+      description: 'Grateful to have completed an Accenture Job Simulation on Forage! This virtual experience provided invaluable practical skills and a deeper understanding of real-world consulting/tech challenges.',
+      image: 'https://cdn.uconnectlabs.com/wp-content/uploads/sites/253/2023/08/forage.jpeg'
+    },
+    {
+      title:'Data Science and Analytics',
+      issuer: 'HP Life',
+      description: 'Thrilled to announce the completion of the Data Science and Analytics by HP LIFE program! This has significantly boosted my foundational skills in leveraging data for informed decision-making.',
+      image:'https://th.bing.com/th/id/OIP.tzqzdNvRnVWosKNGBsXB7AHaDT?rs=1&pid=ImgDetMain',
+    },
+    {
+      title:'Problem Solving (Basic)',
+      issuer: 'HackerRank',
+      description: 'Proud to have completed the Problem Solving (Basic) course on HackerRank',
+      image:'https://th.bing.com/th/id/OIP.e29lhxIjByuC0QfMjbdmYwHaEO?rs=1&pid=ImgDetMain',
+    },
+    {
+      title:'Java(Basic)',
+      issuer:'HackerRank',
+      description: 'Proud to have completed the Java(Basic) course on HackerRank',
+      image:'https://th.bing.com/th/id/OIP.e29lhxIjByuC0QfMjbdmYwHaEO?rs=1&pid=ImgDetMain',
+    },
+    {
+      title:'JavaScript(Basic)',
+      issuer:'HackerRank',
+      description: 'Proud to have completed the JavaScript(Basic) course on HackerRank',
+      image:'https://th.bing.com/th/id/OIP.e29lhxIjByuC0QfMjbdmYwHaEO?rs=1&pid=ImgDetMain',
+    },
+    {
+      title:'SQL(Intermediate)',
+      issuer:'HackerRank',
+      description: 'Proud to have completed the SQL(Intermediate) course on HackerRank',
+      image:'https://th.bing.com/th/id/OIP.e29lhxIjByuC0QfMjbdmYwHaEO?rs=1&pid=ImgDetMain',
+    },
+
   ];
 
-  const certificatesDriveLink = "https://drive.google.com/drive/folders/1ZOHU2dzjLIVxHw8pd3njxmbQa3xnTAsX?usp=drive_link";
+  //const certificatessalesforce= "https://drive.google.com/file/d/1qPz3oFh4oFawDlTa18KYbU7MJWnPCQx-/view?usp=drive_link";
+  //const certificatesazure="https://drive.google.com/file/d/1bMEJakpgo7mARR6miePnRcXQsSkufdTg/view?usp=drive_link";
+  const allcertificate="https://drive.google.com/drive/folders/1ZOHU2dzjLIVxHw8pd3njxmbQa3xnTAsX?usp=drive_link";
 
   return (
     <div className="container mx-auto px-6">
@@ -46,7 +80,7 @@ const Certificates = () => {
           className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105"
         >
           <a 
-            href={certificatesDriveLink} 
+            href={allcertificate} 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center"
@@ -92,7 +126,7 @@ const Certificates = () => {
                 className="border-purple-400/40 text-purple-300 hover:bg-purple-600 hover:text-white w-full"
               >
                 <a 
-                  href={certificatesDriveLink} 
+                  href={allcertificate} 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center"
