@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -18,6 +17,7 @@ const Navigation = ({ activeSection }: NavigationProps) => {
     { id: 'experience', label: 'Experience' },
     { id: 'projects', label: 'Projects' },
     { id: 'education', label: 'Education' },
+    { id: 'certificates', label: 'Certificates' },
     { id: 'contact', label: 'Contact' },
   ];
 

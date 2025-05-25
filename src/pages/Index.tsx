@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Github, Linkedin, Mail, Phone, ExternalLink, Download, Code, Database, Globe, Server } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -10,6 +9,7 @@ import Skills from '@/components/Skills';
 import Experience from '@/components/Experience';
 import Projects from '@/components/Projects';
 import Education from '@/components/Education';
+import Certificates from '@/components/Certificates';
 import Contact from '@/components/Contact';
 import Navigation from '@/components/Navigation';
 
@@ -18,7 +18,7 @@ const Index = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'skills', 'experience', 'projects', 'education', 'contact'];
+      const sections = ['home', 'about', 'skills', 'experience', 'projects', 'education', 'certificates', 'contact'];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -67,7 +67,11 @@ const Index = () => {
         <Education />
       </section>
 
-      <section id="contact" className="py-20 bg-slate-800/50">
+      <section id="certificates" className="py-20 bg-slate-800/50">
+        <Certificates />
+      </section>
+
+      <section id="contact" className="py-20">
         <Contact />
       </section>
 
