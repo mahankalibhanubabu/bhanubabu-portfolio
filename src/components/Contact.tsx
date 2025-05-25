@@ -144,11 +144,11 @@ const Contact = () => {
               <h4 className="text-white font-semibold mb-3">Quick Stats</h4>
               <div className="grid grid-cols-2 gap-4 text-center">
                 <div>
-                  <div className="text-2xl font-bold text-purple-400">10+</div>
+                  <div className="text-2xl font-bold text-purple-400">1</div>
                   <div className="text-gray-400 text-sm">Years Experience</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-purple-400">50+</div>
+                  <div className="text-2xl font-bold text-purple-400">10+</div>
                   <div className="text-gray-400 text-sm">Projects Completed</div>
                 </div>
                 <div>
@@ -156,7 +156,7 @@ const Contact = () => {
                   <div className="text-gray-400 text-sm">Certifications</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-purple-400">3+</div>
+                  <div className="text-2xl font-bold text-purple-400">0</div>
                   <div className="text-gray-400 text-sm">Companies</div>
                 </div>
               </div>
