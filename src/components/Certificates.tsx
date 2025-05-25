@@ -55,7 +55,6 @@ const Certificates = () => {
       description: 'Proud to have completed the SQL(Intermediate) course on HackerRank',
       image:'https://th.bing.com/th/id/OIP.e29lhxIjByuC0QfMjbdmYwHaEO?rs=1&pid=ImgDetMain',
     },
-
   ];
 
   //const certificatessalesforce= "https://drive.google.com/file/d/1qPz3oFh4oFawDlTa18KYbU7MJWnPCQx-/view?usp=drive_link";
