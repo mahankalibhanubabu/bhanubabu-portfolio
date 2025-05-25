@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from '@/components/ui/card';
 
 const About = () => {
@@ -32,7 +31,7 @@ const About = () => {
           <div className="grid grid-cols-2 gap-4">
             <div className="bg-slate-800/50 p-4 rounded-lg">
               <h4 className="text-purple-400 font-semibold mb-2">Location</h4>
-              <p className="text-gray-300">Mahabubnagar, Telangana</p>
+              <p className="text-gray-300">Medak, Telangana</p>
             </div>
             <div className="bg-slate-800/50 p-4 rounded-lg">
               <h4 className="text-purple-400 font-semibold mb-2">Experience</h4>

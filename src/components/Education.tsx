@@ -7,7 +7,7 @@ const Education = () => {
   const education = {
     degree: 'Bachelor of Technology in Computer Science (IoT)',
     institution: 'Malla Reddy Engineering College',
-    location: 'Mahabubnagar, Telangana',
+    location: 'Medak, Telangana',
     duration: 'May 2025',
     cgpa: '8.60',
     coursework: [

@@ -20,7 +20,7 @@ const Contact = () => {
     {
       icon: <MapPin className="w-6 h-6" />,
       title: 'Location',
-      content: 'Mahabubnagar, Telangana, India',
+      content: 'Medak, Telangana, India',
       link: null
     }
   ];
