@@ -1,3 +1,4 @@
+
 import { Card, CardContent } from '@/components/ui/card';
 
 const About = () => {
@@ -16,7 +17,7 @@ const About = () => {
         <div className="space-y-6">
           <div className="prose prose-invert">
             <p className="text-gray-300 text-lg leading-relaxed">
-              I'm Mahankali Bhanu Babu, a dedicated MERN stack developer with over 10 years of experience 
+              I'm Mahankali Bhanu Babu, a dedicated MERN stack developer with fresh perspective 
               in creating innovative web solutions. I graduated from Malla Reddy Engineering College with 
               a Bachelor's in Computer Science and have been passionate about technology ever since.
             </p>
@@ -35,7 +36,7 @@ const About = () => {
             </div>
             <div className="bg-slate-800/50 p-4 rounded-lg">
               <h4 className="text-purple-400 font-semibold mb-2">Experience</h4>
-              <p className="text-gray-300">10+ Years</p>
+              <p className="text-gray-300">Fresher</p>
             </div>
             <div className="bg-slate-800/50 p-4 rounded-lg">
               <h4 className="text-purple-400 font-semibold mb-2">Phone</h4>

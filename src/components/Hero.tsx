@@ -51,8 +51,8 @@ const Hero = () => {
             </span>
           </div>
           <p className="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
-            10+ years of experience building scalable web applications with modern technologies. 
-            Passionate about creating innovative solutions and leading development teams.
+            Fresh graduate with passion for building scalable web applications with modern technologies. 
+            Eager to create innovative solutions and contribute to development teams.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
