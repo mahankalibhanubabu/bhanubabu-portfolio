@@ -25,6 +25,10 @@ const Contact = () => {
     }
   ];
 
+    const bhanuresume =()=>{
+      window.open('https://drive.google.com/file/d/1uEGMxryWQVaUzpfPy-0119EIJhDgbcMM/view?usp=drive_link','_blank');
+    }
+
   const socialLinks = [
     {
       name: 'GitHub',
@@ -125,6 +129,7 @@ const Contact = () => {
               <Button 
                 className="w-full bg-purple-600 hover:bg-purple-700 text-white"
                 size="lg"
+                onClick={bhanuresume}
               >
                 <Download className="mr-2" size={20} />
                 Download Resume
