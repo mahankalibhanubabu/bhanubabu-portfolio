@@ -29,23 +29,27 @@ const Contact = () => {
       window.open('https://drive.google.com/file/d/1uEGMxryWQVaUzpfPy-0119EIJhDgbcMM/view?usp=drive_link','_blank');
     }
 
+    const maillink =() =>{
+      window.open('mailto:mahankalibbhanubabu23323@gmail.com','_blank');
+    }
+
   const socialLinks = [
     {
       name: 'GitHub',
       icon: <Github className="w-6 h-6" />,
-      url: 'https://github.com/',
+      url: 'https://github.com/mahankalibhanubabu?tab=repositories',
       color: 'hover:text-gray-400'
     },
     {
       name: 'LinkedIn',
       icon: <Linkedin className="w-6 h-6" />,
-      url: 'https://linkedin.com/',
+      url: 'www.linkedin.com/in/mahankali-bhanubabu-86294228a',
       color: 'hover:text-blue-400'
     },
     {
       name: 'HackerRank',
       icon: <Code className="w-6 h-6" />,
-      url: 'https://hackerrank.com/',
+      url: 'https://www.hackerrank.com/profile/mahankalibhanub1',
       color: 'hover:text-green-400'
     }
   ];
@@ -139,6 +143,7 @@ const Contact = () => {
                 variant="outline" 
                 className="w-full border-purple-400/40 text-purple-400 hover:bg-purple-400/10"
                 size="lg"
+                onClick={maillink}
               >
                 <Mail className="mr-2" size={20} />
                 Send Email
