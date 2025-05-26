@@ -43,7 +43,7 @@ const Contact = () => {
     {
       name: 'LinkedIn',
       icon: <Linkedin className="w-6 h-6" />,
-      url: 'www.linkedin.com/in/mahankali-bhanubabu-86294228a',
+      url: 'https://www.linkedin.com/in/mahankali-bhanubabu-86294228a/',
       color: 'hover:text-blue-400'
     },
     {
