@@ -46,6 +46,9 @@ const Projects = () => {
       ]
     }
   ];
+  const githublink = () =>{
+    window.open('https://github.com/mahankalibhanubabu')
+  }
 
   return (
     <div className="container mx-auto px-6">
@@ -104,6 +107,7 @@ const Projects = () => {
                     size="sm" 
                     variant="outline" 
                     className="border-purple-400/40 text-purple-400 hover:bg-purple-400/10 flex-1"
+                    onClick={githublink}
                   >
                     <Github className="w-4 h-4 mr-2" />
                     Code
