@@ -8,7 +8,7 @@ const Education = () => {
     {
       degree: 'Bachelor of Technology in Computer Science (IoT)',
       institution: 'Malla Reddy Engineering College',
-      location: 'Medak, Telangana',
+      location: 'Hyderabad, Telangana',
       duration: 'May 2025',
       score: '8.60',
       scoreLabel: 'CGPA', // Label for the score
