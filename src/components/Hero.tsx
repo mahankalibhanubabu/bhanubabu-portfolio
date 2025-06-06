@@ -28,10 +28,6 @@ const Hero = () => {
     }
   };
 
-  const bhanuresume =()=>{
-    window.open('https://drive.google.com/file/d/1uEGMxryWQVaUzpfPy-0119EIJhDgbcMM/view?usp=drive_link','_blank');
-  }
-
   return (
     <div className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Animated Background */}
@@ -63,14 +59,13 @@ const Hero = () => {
             <Button 
               size="lg" 
               className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105"
-              onClick={bhanuresume}
             >
               <Download className="mr-2" size={20} />
               Download Resume
             </Button>
             <div className="flex space-x-4">
               <a 
-                href="https://github.com/mahankalibhanubabu?tab=repositories" 
+                href="https://github.com/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-white hover:text-purple-400 transition-colors duration-200 transform hover:scale-110"
@@ -78,7 +73,7 @@ const Hero = () => {
                 <Github size={24} />
               </a>
               <a 
-                href="www.linkedin.com/in/mahankali-bhanubabu-86294228a" 
+                href="https://linkedin.com/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-white hover:text-purple-400 transition-colors duration-200 transform hover:scale-110"

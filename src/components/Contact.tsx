@@ -25,31 +25,23 @@ const Contact = () => {
     }
   ];
 
-    const bhanuresume =()=>{
-      window.open('https://drive.google.com/file/d/1uEGMxryWQVaUzpfPy-0119EIJhDgbcMM/view?usp=drive_link','_blank');
-    }
-
-    const maillink =() =>{
-      window.open('mailto:mahankalibbhanubabu23323@gmail.com','_blank');
-    }
-
   const socialLinks = [
     {
       name: 'GitHub',
       icon: <Github className="w-6 h-6" />,
-      url: 'https://github.com/mahankalibhanubabu?tab=repositories',
+      url: 'https://github.com/',
       color: 'hover:text-gray-400'
     },
     {
       name: 'LinkedIn',
       icon: <Linkedin className="w-6 h-6" />,
-      url: 'https://www.linkedin.com/in/mahankali-bhanubabu-86294228a/',
+      url: 'https://linkedin.com/',
       color: 'hover:text-blue-400'
     },
     {
       name: 'HackerRank',
       icon: <Code className="w-6 h-6" />,
-      url: 'https://www.hackerrank.com/profile/mahankalibhanub1',
+      url: 'https://hackerrank.com/',
       color: 'hover:text-green-400'
     }
   ];
@@ -133,7 +125,6 @@ const Contact = () => {
               <Button 
                 className="w-full bg-purple-600 hover:bg-purple-700 text-white"
                 size="lg"
-                onClick={bhanuresume}
               >
                 <Download className="mr-2" size={20} />
                 Download Resume
@@ -143,7 +134,6 @@ const Contact = () => {
                 variant="outline" 
                 className="w-full border-purple-400/40 text-purple-400 hover:bg-purple-400/10"
                 size="lg"
-                onClick={maillink}
               >
                 <Mail className="mr-2" size={20} />
                 Send Email

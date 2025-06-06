@@ -12,10 +12,10 @@ const Skills = () => {
       title: 'Frontend',
       icon: <Globe className="w-6 h-6" />,
       skills: [
-        { name: 'React.js', level: 75 },
+        { name: 'React.js', level: 95 },
         { name: 'JavaScript', level: 90 },
-        { name: 'HTML', level: 95 },
-        { name: 'CSS', level: 88 },
+        { name: 'HTML/CSS', level: 95 },
+        { name: 'Node.js', level: 88 },
       ]
     },
     {
@@ -34,24 +34,25 @@ const Skills = () => {
       skills: [
         { name: 'MongoDB', level: 92 },
         { name: 'MySQL', level: 85 },
+        { name: 'React.js', level: 95 },
+        { name: 'MongoDB', level: 90 },
       ]
     },
     {
       title: 'Cloud & Tools',
       icon: <Cloud className="w-6 h-6" />,
       skills: [
-        { name: 'AWS', level: 50 },
+        { name: 'AWS', level: 85 },
         { name: 'Git', level: 90 },
+        { name: 'Docker', level: 75 },
         { name: 'VS Code', level: 95 },
-        {name:'jupiter',level:80},
-        {name:'eclipse',level:80}
       ]
     }
   ];
 
   const technologies = [
-    'JavaScript', 'React', 'Node.js', 'MongoDB', 'Express js', 'HTML', 'CSS', 'Python',
-    'Java', 'SQL', 'Git', 'AWS','generative AI','VS Code','Jupiter','Eclipse'
+    'JavaScript', 'React', 'Node.js', 'MongoDB', 'Express', 'HTML', 'CSS', 'Python',
+    'Java', 'SQL', 'Git', 'AWS', 'Docker', 'Linux', 'Agile', 'REST APIs'
   ];
 
   useEffect(() => {
