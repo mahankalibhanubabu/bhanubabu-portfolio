@@ -44,10 +44,10 @@ const Hero = () => {
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-            Hi, I'm <span className="text-purple-400">Mahankali</span>
+            Hi, I'm <span className="text-purple-400">Angadi</span>
           </h1>
           <h2 className="text-6xl md:text-8xl font-bold text-white mb-4">
-            <span className="text-purple-400">Bhanu Babu</span>
+            <span className="text-purple-400">Sindhu Prasanna</span>
           </h2>
           <div className="text-2xl md:text-3xl text-gray-300 mb-8 h-12">
             <span className="border-r-2 border-purple-400 pr-2 animate-pulse">
