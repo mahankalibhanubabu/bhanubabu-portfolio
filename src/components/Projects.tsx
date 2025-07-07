@@ -1,8 +1,7 @@
-
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { ExternalLink, Github, Code, Database, Globe } from 'lucide-react';
+import { ExternalLink, Github, Code, Database, Globe, ShoppingCart, Cloud } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
@@ -43,6 +42,37 @@ const Projects = () => {
         'Real-time progress tracking',
         'Interactive course management',
         'Student engagement tools'
+      ]
+    },
+    {
+      title: 'ShopVibe -  E-commerce Platform',
+      description: 'Built a feature-rich e-commerce website, ShopVibe, using the MERN stack (MongoDB, Express.js, React.js, Node.js). The platform offers a seamless shopping experience with robust product management, secure user authentication, an intuitive shopping cart, and efficient order processing, all designed for scalability and performance.',
+      technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Redux', 'Stripe/Razorpay (Payment Gateway Integration)'],
+      category: 'E-commerce',
+      icon: <ShoppingCart className="w-6 h-6" />,
+      features: [
+        'User Authentication (Login, Register, Password Reset)',
+        'Product Listing & Detail Pages',
+        'Shopping Cart Functionality',
+        'Secure Checkout & Payment Integration',
+        'Order Management & History',
+        'Product Search & Filtering',
+        'Admin Panel for Product & Order Management',
+        'Responsive Design for seamless mobile experience'
+      ]
+    },
+    {
+      title: 'Advanced Weather Forecast',
+      description: 'Engineered a dynamic online weather platform providing real-time, hyper-local weather conditions and advanced forecasting capabilities. Features include interactive maps, severe weather alerts, and historical data visualization, built with the MERN stack.',
+      technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'RESTful APIs'],
+      category: 'Data Visualization & Utilities',
+      icon: <Cloud className="w-6 h-6" />,
+      features: [
+        'Real-time weather updates',
+        'Hyper-local forecasting',
+        'Interactive weather maps',
+        'Severe weather alerts',
+        'Historical weather data visualization'
       ]
     }
   ];
