@@ -9,7 +9,7 @@ const Education = () => {
     institution: 'Malla Reddy Engineering College',
     location: 'Medak, Telangana',
     duration: 'May 2025',
-    cgpa: '8.60',
+    cgpa: '8.48',
     coursework: [
       'Data Structures and Algorithms (Java)',
       'Object Oriented Programming',

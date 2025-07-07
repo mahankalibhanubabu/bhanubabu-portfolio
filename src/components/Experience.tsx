@@ -30,7 +30,7 @@ const Experience = () => {
       technologies: ['Salesforce', 'CRM', 'Sales Automation', 'Platform Development']
     },
     {
-      title: 'Coludaish: Secure User Management System',
+      title: 'Cloudauth: Secure User Management System',
       company: 'Vinsense Technologies',
       location: 'Remote',
       duration: 'Nov 2023 - Present',

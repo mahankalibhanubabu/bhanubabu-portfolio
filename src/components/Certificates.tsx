@@ -55,6 +55,24 @@ const Certificates = () => {
       description: 'Proud to have completed the SQL(Intermediate) course on HackerRank',
       image:'https://th.bing.com/th/id/OIP.e29lhxIjByuC0QfMjbdmYwHaEO?rs=1&pid=ImgDetMain',
     },
+    {
+      title:'Python(Basic)',
+      issuer:'HackerRank',
+      description: 'Proud to have completed the Python(Basic) course on HackerRank',
+      image:'https://th.bing.com/th/id/OIP.e29lhxIjByuC0QfMjbdmYwHaEO?rs=1&pid=ImgDetMain',
+    },
+    {
+      title:'Software Engineer Intern',
+      issuer:'HackerRank',
+      description: 'Proud to have completed the Software Engineer Intern certificate on HackerRank',
+      image:'https://th.bing.com/th/id/OIP.e29lhxIjByuC0QfMjbdmYwHaEO?rs=1&pid=ImgDetMain',
+    },
+    {
+      title:'Software Engineer ',
+      issuer:'HackerRank',
+      description: 'Proud to have completed the Software Engineer certificate on HackerRank',
+      image:'https://th.bing.com/th/id/OIP.e29lhxIjByuC0QfMjbdmYwHaEO?rs=1&pid=ImgDetMain',
+    },
   ];
 
   //const certificatessalesforce= "https://drive.google.com/file/d/1qPz3oFh4oFawDlTa18KYbU7MJWnPCQx-/view?usp=drive_link";
