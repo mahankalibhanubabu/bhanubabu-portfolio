@@ -11,6 +11,7 @@ const Projects = () => {
       technologies: ['HTML', 'CSS', 'JavaScript', 'Web Development'],
       category: 'Web Development',
       icon: <Globe className="w-6 h-6" />,
+      github: 'https://github.com/mahankalibhanubabu/IndustrialExpo',
       features: [
         'Online tender management system',
         'Centralized procurement platform',
@@ -24,6 +25,7 @@ const Projects = () => {
       technologies: ['React.js', 'Node.js', 'MongoDB', 'Express.js'],
       category: 'Full Stack',
       icon: <Code className="w-6 h-6" />,
+      github: 'https://github.com/mahankalibhanubabu/movieflix-react-',
       features: [
         'Real-time movie search',
         'Advanced filtering options',
@@ -37,6 +39,7 @@ const Projects = () => {
       technologies: ['React.js', 'Node.js', 'MongoDB', 'Express.js'],
       category: 'Educational Platform',
       icon: <Database className="w-6 h-6" />,
+      github: 'https://github.com/mahankalibhanubabu/student-dashboard',
       features: [
         'Personalized learning paths',
         'Real-time progress tracking',
@@ -50,6 +53,7 @@ const Projects = () => {
       technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Redux', 'Stripe/Razorpay (Payment Gateway Integration)'],
       category: 'E-commerce',
       icon: <ShoppingCart className="w-6 h-6" />,
+      github: 'https://github.com/mahankalibhanubabu/shopvibe',
       features: [
         'User Authentication (Login, Register, Password Reset)',
         'Product Listing & Detail Pages',
@@ -67,6 +71,7 @@ const Projects = () => {
       technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'RESTful APIs'],
       category: 'Data Visualization & Utilities',
       icon: <Cloud className="w-6 h-6" />,
+      github: 'https://github.com/mahankalibhanubabu/weather-forcasting-',
       features: [
         'Real-time weather updates',
         'Hyper-local forecasting',
@@ -130,14 +135,21 @@ const Projects = () => {
                 </div>
 
                 <div className="flex gap-2 pt-4">
-                  <Button 
-                    size="sm" 
-                    variant="outline" 
-                    className="border-purple-400/40 text-purple-400 hover:bg-purple-400/10 flex-1"
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1"
                   >
-                    <Github className="w-4 h-4 mr-2" />
-                    Code
-                  </Button>
+                    <Button 
+                      size="sm" 
+                      variant="outline" 
+                      className="border-purple-400/40 text-purple-400 hover:bg-purple-400/10 w-full"
+                    >
+                      <Github className="w-4 h-4 mr-2" />
+                      Code
+                    </Button>
+                  </a>
                   <Button 
                     size="sm" 
                     className="bg-purple-600 hover:bg-purple-700 flex-1"
