@@ -29,7 +29,7 @@ const Certificates = () => {
       title:'Generative AI and ChatGPT',
       issuer: 'Geeks for Geeks',
       description: 'Thrilled to announce the completion of the Generative AI and ChatGPT by Geeks for Geeks! This has significantly boosted my foundational skills in leveraging data for informed decision-making.',
-      image:'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Fpractice.geeksforgeeks.org%2F&psig=AOvVaw0JbQjybZM2juVoqug5_xvc&ust=1752650707364000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJC4vOyqvo4DFQAAAAAdAAAAABAE',
+      image:'https://repository-images.githubusercontent.com/594709571/9a22d4cd-9ac8-48c4-9548-29c9f43f65fb',
     },
     {
       title:'Data Science and Analytics',
