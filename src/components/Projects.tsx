@@ -1,7 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { ExternalLink, Github, Code, Database, Globe, ShoppingCart, Cloud } from 'lucide-react';
+import { ExternalLink, Github, Code, Database, Globe, ShoppingCart, Cloud, Ticket } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
@@ -31,20 +31,6 @@ const Projects = () => {
         'Advanced filtering options',
         'Personalized recommendations',
         'Responsive design'
-      ]
-    },
-    {
-      title: 'Student Dashboard - E-Learning',
-      description: 'Developed a comprehensive student dashboard for an e-learning platform with features like personalized learning paths, real-time progress tracking, and interactive course management tools using React, Node.js, and MongoDB.',
-      technologies: ['React.js', 'Node.js', 'MongoDB', 'Express.js'],
-      category: 'Educational Platform',
-      icon: <Database className="w-6 h-6" />,
-      github: 'https://github.com/mahankalibhanubabu/student-dashboard',
-      features: [
-        'Personalized learning paths',
-        'Real-time progress tracking',
-        'Interactive course management',
-        'Student engagement tools'
       ]
     },
     {
@@ -78,6 +64,35 @@ const Projects = () => {
         'Interactive weather maps',
         'Severe weather alerts',
         'Historical weather data visualization'
+      ]
+    },
+    {
+      title: 'Student Dashboard - E-Learning',
+      description: 'Developed a comprehensive student dashboard for an e-learning platform with features like personalized learning paths, real-time progress tracking, and interactive course management tools using React, Node.js, and MongoDB.',
+      technologies: ['React.js', 'Node.js', 'MongoDB', 'Express.js'],
+      category: 'Educational Platform',
+      icon: <Database className="w-6 h-6" />,
+      github: 'https://github.com/mahankalibhanubabu/student-dashboard',
+      features: [
+        'Personalized learning paths',
+        'Real-time progress tracking',
+        'Interactive course management',
+        'Student engagement tools'
+      ]
+    },
+    {
+      title: "EventFlow: Online Event Management Platform",
+      description: "Developed a comprehensive online event management platform, EventFlow, streamlining event creation, smart ticketing, and real-time analytics. This project features intuitive event building, secure payment integrations, and dual user dashboards for organizers and attendees, enhancing the overall event experience.",
+      technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
+      category: "Event Management",
+      icon: <Ticket className="w-6 h-6" />,
+      link: "https://eventflow-react-app.vercel.app/",
+      features: [
+        "End-to-end event creation and management",
+        "Smart ticketing with flexible pricing and QR codes",
+        "Real-time analytics and reporting",
+        "Dual dashboards for organizers and attendees",
+        "Secure authentication and responsive design"
       ]
     }
   ];
