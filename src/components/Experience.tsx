@@ -34,7 +34,7 @@ const Experience = () => {
       company: 'Vinsense Technologies',
       location: 'Remote',
       duration: 'Nov 2023 - Present',
-      type: 'Full-time',
+      type: 'Internship',
       description: [
         'During internship, developed Cloud Auth integrating Java for website, SQL for data storage, ensuring secure user management',
         'Proficient in Java and SQL'

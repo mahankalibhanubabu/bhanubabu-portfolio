@@ -58,7 +58,7 @@ const About = () => {
               </div>
               <div className="bg-white rounded-lg p-4 shadow-lg">
                 <img 
-                  src="/lovable-uploads/dbf5be4a-f09a-4eb6-ad0b-fb3e4a58ae2a.png" 
+                  src="/lovable-uploads/resume ss.png" 
                   alt="Mahankali Bhanu Babu Resume" 
                   className="w-full h-auto rounded-lg"
                 />
