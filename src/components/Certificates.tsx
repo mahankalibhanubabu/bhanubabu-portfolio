@@ -26,6 +26,12 @@ const Certificates = () => {
       image: 'https://cdn.uconnectlabs.com/wp-content/uploads/sites/253/2023/08/forage.jpeg'
     },
     {
+      title:'Generative AI and ChatGPT',
+      issuer: 'Geeks for Geeks',
+      description: 'Thrilled to announce the completion of the Generative AI and ChatGPT by Geeks for Geeks! This has significantly boosted my foundational skills in leveraging data for informed decision-making.',
+      image:'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Fpractice.geeksforgeeks.org%2F&psig=AOvVaw0JbQjybZM2juVoqug5_xvc&ust=1752650707364000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJC4vOyqvo4DFQAAAAAdAAAAABAE',
+    },
+    {
       title:'Data Science and Analytics',
       issuer: 'HP Life',
       description: 'Thrilled to announce the completion of the Data Science and Analytics by HP LIFE program! This has significantly boosted my foundational skills in leveraging data for informed decision-making.',
