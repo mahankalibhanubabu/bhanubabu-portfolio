@@ -94,7 +94,66 @@ const Projects = () => {
         "Dual dashboards for organizers and attendees",
         "Secure authentication and responsive design"
       ]
-    }
+    },
+  {
+    "title": "Search Agent",
+    "description": "An AI automation that streamlines research by taking user input, searching Google for relevant information, and then compiling the findings into a clear, structured report in Google Docs. This tool is designed to save time on manual research and documentation, providing a seamless flow from inquiry to a final report.",
+    "technologies": ["AI Automation", "Google Search API", "Google Docs API"],
+    "category": "Research & Documentation",
+    "icon": "<Search className='w-6 h-6' />",
+    "automation_link": "https://chat.lindy.ai/home/?templateId=6879f98e67b4b08e7e9f63d2",
+    "features": [
+      "User Input for Queries",
+      "Automated Google Search",
+      "Information Extraction & Curation",
+      "Automated Report Generation in Google Docs",
+      "Time-Saving Research Workflow"
+    ]
+  },
+  {
+    "title": "AI Bot",
+    "description": "A conversational AI bot powered by Claude AI that provides instant, intelligent answers to user questions. This automation demonstrates the power of integrating a large language model to create a dynamic and responsive query-and-answer system, enhancing real-time information retrieval.",
+    "technologies": ["AI Automation", "Claude AI"],
+    "category": "Conversational AI",
+    "icon": "<MessageCircle className='w-6 h-6' />",
+    "automation_link": "https://chat.lindy.ai/home/?templateId=687b40cc8cc9e3b986298927",
+    "features": [
+      "Real-time Question & Answer",
+      "Integration with Claude AI",
+      "Dynamic Conversational Responses",
+      "Simplified User Interface"
+    ]
+  },
+  {
+    "title": "Brand Monitoring Automation",
+    "description": "An AI-powered tool that automates the process of monitoring a brand's online presence. It asks for a brand name and key information, searches Google for mentions and data, and then generates a comprehensive brand monitoring report in Google Docs, providing valuable insights without manual effort.",
+    "technologies": ["AI Automation", "Google Search API", "Google Docs API"],
+    "category": "Marketing & Analytics",
+    "icon": "<Monitor className='w-6 h-6' />",
+    "automation_link": "https://chat.lindy.ai/home/?templateId=687f16d52c2d01373898a362",
+    "features": [
+      "User Input for Brand Details",
+      "Automated Online Search",
+      "Brand Mention & Insight Collection",
+      "Automated Report Generation in Google Docs",
+      "Competitive Analysis & Reputation Management"
+    ]
+  },
+  {
+    "title": "Content Summarizer Agent",
+    "description": "A smart agent that efficiently summarizes content from any provided YouTube video or website link. It intelligently processes the source material to extract the main ideas and key takeaways, delivering a concise and easy-to-read summary that saves users significant time and helps them quickly grasp information.",
+    "technologies": ["AI Automation", "Natural Language Processing (NLP)"],
+    "category": "Productivity & Content",
+    "icon": "<FileText className='w-6 h-6' />",
+    "automation_link": "https://chat.lindy.ai/home/?templateId=688350aa6ce275534816aa79",
+    "features": [
+      "URL-Based Content Input (YouTube & Websites)",
+      "Automated Content Analysis",
+      "Key Point Extraction",
+      "Concise Summary Generation",
+      "Time-Saving Information Consumption"
+    ]
+  }
   ];
 
   return (
