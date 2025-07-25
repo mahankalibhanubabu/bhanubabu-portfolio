@@ -50,7 +50,12 @@ const Skills = () => {
 
   const technologies = [
     'JavaScript', 'React', 'Node.js', 'MongoDB', 'Express', 'HTML', 'CSS', 'Python',
-    'Java', 'SQL', 'Git', 'REST APIs'
+    'Java', 'SQL', 'Git', 'REST APIs',
+  ];
+
+  const Concepts =[
+    'Prompt Engineering','Large Language Models(LLM)','Retrieval Augmented Generation (RAG)',
+    'Fine-Tuning','Pre-Training','Ai Workflows and Automations',
   ];
 
   useEffect(() => {
@@ -125,6 +130,27 @@ const Skills = () => {
         <CardContent>
           <div className="flex flex-wrap gap-3 justify-center">
             {technologies.map((tech, index) => (
+              <span 
+                key={tech}
+                className="px-4 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-full text-sm font-medium transform hover:scale-105 transition-all duration-200"
+                style={{ 
+                  animationDelay: `${index * 100}ms`,
+                  animation: isVisible ? 'fadeInUp 0.6s ease-out forwards' : 'none'
+                }}
+              >
+                {tech}
+              </span>
+            ))}
+          </div>
+        </CardContent>
+      </Card>
+      <Card className="bg-slate-800/50 border-purple-400/20">
+        <CardHeader>
+          <CardTitle className="text-white text-center">AI Concepts </CardTitle>
+        </CardHeader>
+        <CardContent>
+          <div className="flex flex-wrap gap-3 justify-center">
+            {Concepts.map((tech, index) => (
               <span 
                 key={tech}
                 className="px-4 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-full text-sm font-medium transform hover:scale-105 transition-all duration-200"
