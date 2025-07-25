@@ -15,7 +15,7 @@ const Skills = () => {
         { name: 'React.js', level: 95 },
         { name: 'JavaScript', level: 90 },
         { name: 'HTML/CSS', level: 95 },
-        { name: 'Node.js', level: 88 },
+        { name: 'React-Native', level: 50 },
       ]
     },
     {
@@ -34,17 +34,15 @@ const Skills = () => {
       skills: [
         { name: 'MongoDB', level: 92 },
         { name: 'MySQL', level: 85 },
-        { name: 'React.js', level: 95 },
-        { name: 'MongoDB', level: 90 },
       ]
     },
     {
-      title: 'Cloud & Tools',
+      title: 'Tools',
       icon: <Cloud className="w-6 h-6" />,
       skills: [
-        { name: 'AWS', level: 85 },
+        { name: 'Cursor', level: 95 },
         { name: 'Git', level: 90 },
-        { name: 'Docker', level: 75 },
+        { name: 'Lindy AI', level: 75 },
         { name: 'VS Code', level: 95 },
       ]
     }
@@ -52,7 +50,7 @@ const Skills = () => {
 
   const technologies = [
     'JavaScript', 'React', 'Node.js', 'MongoDB', 'Express', 'HTML', 'CSS', 'Python',
-    'Java', 'SQL', 'Git', 'AWS', 'Docker', 'Linux', 'Agile', 'REST APIs'
+    'Java', 'SQL', 'Git', 'REST APIs'
   ];
 
   useEffect(() => {
