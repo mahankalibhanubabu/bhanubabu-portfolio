@@ -44,7 +44,7 @@ const About = () => {
             </div>
             <div className="bg-slate-800/50 p-4 rounded-lg">
               <h4 className="text-purple-400 font-semibold mb-2">Email</h4>
-              <p className="text-gray-300 text-sm">mahankalibbhanubabu23323@gmail.com</p>
+              <p className="text-gray-300 text-sm">mahankalibhanubabu232323@gmail.com</p>
             </div>
           </div>
         </div>
