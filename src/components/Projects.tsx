@@ -39,6 +39,7 @@ const Projects = () => {
       technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Redux', 'Stripe/Razorpay (Payment Gateway Integration)'],
       category: 'E-commerce',
       icon: <ShoppingCart className="w-6 h-6" />,
+      link:' https://preview--shopvibe.lovable.app/',
       github: 'https://github.com/mahankalibhanubabu/shopvibe',
       features: [
         'User Authentication (Login, Register, Password Reset)',

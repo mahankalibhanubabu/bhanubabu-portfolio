@@ -12,73 +12,84 @@ const Certificates = () => {
       issuer: 'Salesforce',
       description: '"Proud to be a Salesforce Certified Developer! This certification confirms my skills in Apex, Lightning, and crafting robust solutions to maximize business impact on Salesforce."',
       image: 'https://th.bing.com/th/id/OIP.u7703LMdFomHOG4jIVQwoAAAAA?rs=1&pid=ImgDetMain',
-      certificatelink:''
+      certificatelink:'https://drive.google.com/file/d/1qPz3oFh4oFawDlTa18KYbU7MJWnPCQx-/view?usp=sharing'
     },
     {
       title: 'Azure Fundamentals',
       issuer: 'Microscoft Azure',
       description: 'Proud to be Azure Certified! This credential confirms my skills in designing and managing robust, scalable solutions on the Microsoft Azure cloud platform.',
-      image: 'https://th.bing.com/th/id/OIP.5Zgd7tKg7y5c9_drW_1x4wHaEK?rs=1&pid=ImgDetMain'
+      image: 'https://th.bing.com/th/id/OIP.5Zgd7tKg7y5c9_drW_1x4wHaEK?rs=1&pid=ImgDetMain',
+      certificatelink:'https://drive.google.com/file/d/1bMEJakpgo7mARR6miePnRcXQsSkufdTg/view?usp=sharing'
     },
     {
       title: 'Accenture Developer Job Simulation',
       issuer: 'accenture',
       description: 'Grateful to have completed an Accenture Job Simulation on Forage! This virtual experience provided invaluable practical skills and a deeper understanding of real-world consulting/tech challenges.',
-      image: 'https://cdn.uconnectlabs.com/wp-content/uploads/sites/253/2023/08/forage.jpeg'
+      image: 'https://cdn.uconnectlabs.com/wp-content/uploads/sites/253/2023/08/forage.jpeg',
+      certificatelink:'https://drive.google.com/file/d/1vt0ksA57TH6jgBHREUh5OxY2cCg8R3v0/view?usp=sharing'
     },
     {
       title:'Generative AI and ChatGPT',
       issuer: 'Geeks for Geeks',
       description: 'Thrilled to announce the completion of the Generative AI and ChatGPT by Geeks for Geeks! This has significantly boosted my foundational skills in leveraging data for informed decision-making.',
       image:'https://repository-images.githubusercontent.com/594709571/9a22d4cd-9ac8-48c4-9548-29c9f43f65fb',
+      certificatelink:'https://drive.google.com/file/d/1xrENgqky1eg4N6SKzIQSdNUgBaxqj73-/view?usp=sharing'
     },
     {
       title:'Data Science and Analytics',
       issuer: 'HP Life',
       description: 'Thrilled to announce the completion of the Data Science and Analytics by HP LIFE program! This has significantly boosted my foundational skills in leveraging data for informed decision-making.',
       image:'https://th.bing.com/th/id/OIP.tzqzdNvRnVWosKNGBsXB7AHaDT?rs=1&pid=ImgDetMain',
+      certificatelink:'https://drive.google.com/file/d/1jnn8AnS6oz2A1wuRaeGSYQaVSJvsW02b/view?usp=sharing'
     },
     {
       title:'Problem Solving (Basic)',
       issuer: 'HackerRank',
       description: 'Proud to have completed the Problem Solving (Basic) course on HackerRank',
       image:'https://th.bing.com/th/id/OIP.e29lhxIjByuC0QfMjbdmYwHaEO?rs=1&pid=ImgDetMain',
+      certificatelink:'https://drive.google.com/file/d/1-Yf6miG7aFIx69n7HHg9eB77Kbx6AacW/view?usp=drive_link'
     },
     {
       title:'Java(Basic)',
       issuer:'HackerRank',
       description: 'Proud to have completed the Java(Basic) course on HackerRank',
       image:'https://th.bing.com/th/id/OIP.e29lhxIjByuC0QfMjbdmYwHaEO?rs=1&pid=ImgDetMain',
+      certificatelink:'https://drive.google.com/file/d/1MYZrUgh6-n1TJX6LHEjRYukZAmXyl4BQ/view?usp=drive_link'
     },
     {
       title:'JavaScript(Basic)',
       issuer:'HackerRank',
       description: 'Proud to have completed the JavaScript(Basic) course on HackerRank',
       image:'https://th.bing.com/th/id/OIP.e29lhxIjByuC0QfMjbdmYwHaEO?rs=1&pid=ImgDetMain',
+      certificatelink:'https://drive.google.com/file/d/1SK0TjQ1pv08_1CO-LRKBp6cQLwn6uY1s/view?usp=drive_link'
     },
     {
       title:'SQL(Intermediate)',
       issuer:'HackerRank',
       description: 'Proud to have completed the SQL(Intermediate) course on HackerRank',
       image:'https://th.bing.com/th/id/OIP.e29lhxIjByuC0QfMjbdmYwHaEO?rs=1&pid=ImgDetMain',
+      certificatelink:'https://drive.google.com/file/d/1K6Sm4xqfgu8IvlFN90tNzGUsOCm6_3zL/view?usp=drive_link'
     },
     {
       title:'Python(Basic)',
       issuer:'HackerRank',
       description: 'Proud to have completed the Python(Basic) course on HackerRank',
       image:'https://th.bing.com/th/id/OIP.e29lhxIjByuC0QfMjbdmYwHaEO?rs=1&pid=ImgDetMain',
+      certificatelink:'https://drive.google.com/file/d/1oxNGIpbQfX5xYAwjMkbGZPAH7bzaxh0F/view?usp=drive_link'
     },
     {
       title:'Software Engineer Intern',
       issuer:'HackerRank',
       description: 'Proud to have completed the Software Engineer Intern certificate on HackerRank',
       image:'https://th.bing.com/th/id/OIP.e29lhxIjByuC0QfMjbdmYwHaEO?rs=1&pid=ImgDetMain',
+      certificatelink:'https://drive.google.com/file/d/15oXXs3tYeCxRubgn73Swehc3amGJ5Rr0/view?usp=drive_link'
     },
     {
       title:'Software Engineer ',
       issuer:'HackerRank',
       description: 'Proud to have completed the Software Engineer certificate on HackerRank',
       image:'https://th.bing.com/th/id/OIP.e29lhxIjByuC0QfMjbdmYwHaEO?rs=1&pid=ImgDetMain',
+      certificatelink:'https://drive.google.com/file/d/1Jr-TSP_BVX1ORA2LFGCijD4MxgWoKcYv/view?usp=drive_link'
     },
   ];
 
