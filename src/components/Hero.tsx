@@ -29,7 +29,7 @@ const Hero = () => {
   };
 
   const bhanuresume =()=>{
-    window.open('https://drive.google.com/file/d/15dGetylW7h4qvH7zHNILnB_kbMvsoyI7/view?usp=sharing');
+    window.open('https://drive.google.com/file/d/1Mu2YJcy-UNF-cpTH711AsQTIktqnxCxS/view?usp=sharing');
   }
 
   return (

@@ -24,6 +24,12 @@ const Contact = () => {
       link: null
     }
   ];
+  const bhanuresume =()=>{
+    window.open('https://drive.google.com/file/d/1Mu2YJcy-UNF-cpTH711AsQTIktqnxCxS/view?usp=sharing');
+  }
+  const mailto=()=>{
+    window.open('mailto:mahankalibbhanubabu23323@gmail.com')
+  }
 
   const socialLinks = [
     {
@@ -125,6 +131,7 @@ const Contact = () => {
               <Button 
                 className="w-full bg-purple-600 hover:bg-purple-700 text-white"
                 size="lg"
+                onClick={bhanuresume}
               >
                 <Download className="mr-2" size={20} />
                 Download Resume
@@ -134,6 +141,7 @@ const Contact = () => {
                 variant="outline" 
                 className="w-full border-purple-400/40 text-purple-400 hover:bg-purple-400/10"
                 size="lg"
+                onClick={mailto}
               >
                 <Mail className="mr-2" size={20} />
                 Send Email
