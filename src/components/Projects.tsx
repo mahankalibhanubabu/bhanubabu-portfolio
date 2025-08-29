@@ -101,7 +101,7 @@ const Projects = () => {
     "technologies": ["AI Automation", "Google Search API", "Google Docs API"],
     "category": "Research & Documentation",
     "icon": <Search className='w-6 h-6' />,
-    "automation_link": "https://chat.lindy.ai/home/?templateId=6879f98e67b4b08e7e9f63d2",
+    "link": "https://chat.lindy.ai/home/?templateId=6879f98e67b4b08e7e9f63d2",
     "features": [
       "User Input for Queries",
       "Automated Google Search",
@@ -116,7 +116,7 @@ const Projects = () => {
     "technologies": ["AI Automation", "Claude AI"],
     "category": "Conversational AI",
     "icon": <MessageCircle className='w-6 h-6' />,
-    "automation_link": "https://chat.lindy.ai/home/?templateId=687b40cc8cc9e3b986298927",
+    "link": "https://chat.lindy.ai/home/?templateId=687b40cc8cc9e3b986298927",
     "features": [
       "Real-time Question & Answer",
       "Integration with Claude AI",
@@ -130,7 +130,7 @@ const Projects = () => {
     "technologies": ["AI Automation", "Google Search API", "Google Docs API"],
     "category": "Marketing & Analytics",
     "icon": <Monitor className='w-6 h-6' />,
-    "automation_link": "https://chat.lindy.ai/home/?templateId=687f16d52c2d01373898a362",
+    "link": "https://chat.lindy.ai/home/?templateId=687f16d52c2d01373898a362",
     "features": [
       "User Input for Brand Details",
       "Automated Online Search",
@@ -145,7 +145,7 @@ const Projects = () => {
     "technologies": ["AI Automation", "Natural Language Processing (NLP)"],
     "category": "Productivity & Content",
     "icon": <FileText className='w-6 h-6' />,
-    "automation_link": "https://chat.lindy.ai/home/?templateId=688350aa6ce275534816aa79",
+    "link": "https://chat.lindy.ai/home/?templateId=688350aa6ce275534816aa79",
     "features": [
       "URL-Based Content Input (YouTube & Websites)",
       "Automated Content Analysis",
@@ -224,13 +224,19 @@ const Projects = () => {
                       Code
                     </Button>
                   </a>
+                  <a href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1">
                   <Button 
                     size="sm" 
-                    className="bg-purple-600 hover:bg-purple-700 flex-1"
+                    className="bg-purple-600 hover:bg-purple-700 w-full"
                   >
                     <ExternalLink className="w-4 h-4 mr-2" />
                     Demo
                   </Button>
+                  </a>
+                  
                 </div>
               </div>
             </CardContent>

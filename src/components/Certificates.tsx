@@ -11,7 +11,8 @@ const Certificates = () => {
       title: 'Salesforce Developer',
       issuer: 'Salesforce',
       description: '"Proud to be a Salesforce Certified Developer! This certification confirms my skills in Apex, Lightning, and crafting robust solutions to maximize business impact on Salesforce."',
-      image: 'https://th.bing.com/th/id/OIP.u7703LMdFomHOG4jIVQwoAAAAA?rs=1&pid=ImgDetMain'
+      image: 'https://th.bing.com/th/id/OIP.u7703LMdFomHOG4jIVQwoAAAAA?rs=1&pid=ImgDetMain',
+      certificatelink:''
     },
     {
       title: 'Azure Fundamentals',
@@ -149,7 +150,7 @@ const Certificates = () => {
                 className="border-purple-400/40 text-purple-300 hover:bg-purple-600 hover:text-white w-full"
               >
                 <a 
-                  href={allcertificate} 
+                  href={cert.certificatelink} 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center"
