@@ -6,10 +6,26 @@ import { Calendar, MapPin, Building } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
+  title: 'Workload Automation Engineer',
+  company: 'Miraki Technologies',
+  location: 'India',
+  duration: 'Aug 2025 - Present',
+  type: 'Technical Support Role',
+  description: [
+    'Monitor and manage batch jobs using Autosys and Automic platforms for multiple clients',
+    'Analyze job failures, investigate root causes, and provide timely resolutions',
+    'Handle incident tickets and alerts to ensure smooth workflow operations',
+    'Coordinate with application and infrastructure teams for issue resolution',
+    'Maintain SLA compliance and improve system reliability'
+  ],
+  technologies: ['Autosys', 'Automic', 'Linux', 'Monitoring', 'Incident Management']
+},
+
+    {
       title: 'Vice President - IoT essENSE',
       company: 'IoT essENSE',
       location: 'Remote',
-      duration: 'Nov 2023 - Present',
+      duration: 'Nov 2023 - Nov 2024',
       type: 'Leadership Role',
       description: [
         'Lead "IoT Essense" as Vice President, driving strategic initiatives and fostering collaboration to advance understanding and application of IoT technologies within the community',
@@ -22,7 +38,7 @@ const Experience = () => {
       title: 'Salesforce Developer Virtual Internship',
       company: 'Salesforce',
       location: 'Remote',
-      duration: 'Jan 2024 - Present',
+      duration: 'Jan 2024 - Aug 2024',
       type: 'Virtual Internship',
       description: [
         'Successfully completed a virtual Salesforce internship, acquiring practical skills and insights into Salesforce platform functionalities, CRM tools, and sales automation processes'
@@ -33,7 +49,7 @@ const Experience = () => {
       title: 'Cloudauth: Secure User Management System',
       company: 'Vinsense Technologies',
       location: 'Remote',
-      duration: 'Nov 2023 - Present',
+      duration: 'Nov 2023 - April 2024',
       type: 'Internship',
       description: [
         'During internship, developed Cloud Auth integrating Java for website, SQL for data storage, ensuring secure user management',
