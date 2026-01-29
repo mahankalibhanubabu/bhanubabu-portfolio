@@ -52,8 +52,8 @@ const Skills = () => {
       title: 'Workload Automation',
       icon: <Settings className="w-6 h-6" />,
       skills: [
-        { name: 'Autosys automation', level: 95 },
-        { name: 'Automic Automation', level: 90 },
+        { name: 'Autosys ', level: 95 },
+        { name: 'Automic ', level: 90 },
       ]
     }
   ];
@@ -73,7 +73,7 @@ const Skills = () => {
   ];
 
   const WorkloadAutomation = [
-    'Autosys Automation', 'Automic Automation'
+    'Autosys ', 'Automic '
   ];
 
   useEffect(() => {
